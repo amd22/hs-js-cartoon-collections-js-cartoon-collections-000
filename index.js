@@ -2,11 +2,11 @@
 
 
 function dwarfRollCall(dwarves) {
-	var newStr = [];
-	dwarves.forEach(function(name, i) {
-		newStr.push(i+1 +". " + name);
-	});
-	return newStr.join(" ");
+  var newStr = "";
+  dwarves.forEach(function(name, idx) {
+  	newStr += (idx+1 + ". " + name + " ");
+  });
+  return newStr;
 }
 
 dwarfRollCall(["Dopey","Grumpy","Bashful","Doc"]);
