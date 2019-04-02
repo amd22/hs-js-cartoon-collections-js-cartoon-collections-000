@@ -9,7 +9,7 @@ function dwarfRollCall(dwarves) {
 	return newStr.join(" ");
 }
 
-dwarfRollCall(["Dopey","Grumpy","Bashful","Doc", "Dopey", "Bashful", "Grumpy"]);
+dwarfRollCall(["Dopey","Grumpy","Bashful","Doc"]);
 
 function summonCaptainPlanet(array) {
 	return array.map(function(ele) {
